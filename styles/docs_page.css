@@ -1,0 +1,103 @@
+body {
+    background-color: #4a4a60;
+    font-family: Arial;
+    margin: 0;
+}
+article {
+  font-family: Arial;
+  color: #d8d8d6;
+}
+
+header {
+background: #3f3f64;
+  color: #d8d8d6;
+  font-size: 12pt;
+  font-family: Arial;
+  font-weight: normal;
+  height: 95;
+  margin-left: -8;
+  margin-right: -8;
+  margin-top: -8;
+  padding: 3;
+
+ 
+}
+*{
+    box-sizing: border-box;
+} 
+
+.row {  
+    display: flex;
+    flex-wrap: nowrap;
+height: 100%;
+}
+
+
+.side {
+    flex: 5%;
+    background-color: #3f3f63;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #d8d8d6;
+    font-size: 13pt;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+/* Main column */
+.main {   
+    flex: 95%;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width:100%;
+    }
+}
+
+
+
+a.vertikalmenu {
+    color: #ef9e0a;  
+    text-decoration: none;
+    margin-top: 60;
+    margin-left: 5;
+  
+
+}
+img.logo {
+margin-top: 15;
+}
+
+.docheader{
+margin-top: 30;
+margin-left: 150;
+font-size: 15pt;
+}
+
+
+
+nav.docs {
+margin-top: 15;
+margin-left: 150;
+font-size: 13pt;
+}
+a {
+color: #ef9e0a;
+}
+a.menu {
+text-decoration: none;
+}
