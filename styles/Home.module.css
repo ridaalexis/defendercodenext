@@ -67,5 +67,6 @@ grid-area: header;
   display: grid;
   height: 5000px;
   color: #ef9e0a;
+  align-content: flex-start;
 
 }
