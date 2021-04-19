@@ -20,10 +20,24 @@ export default function FirstPost() {
       <a href="../" >
           <img src={"../../icons/check.png"} className={styles.image} alt=' Support &rarr;' ></img> 
         <p align="center">Назад</p> </a> 
-
   
-    
   </div>
+
+    <div className={styles.main}>
+    <h1> FAQ</h1>
+                    <i>Что это такое? </i>
+                    <p>HTML, но не совсем... </p>
+                    <i>Что может эта программа? </i>
+                    <p>Данная программа просто показывает картинки :,)</p>       
+
+<div ><h1> Поддержка</h1>
+<p class="answers">Поддержка осуществляется компанией "DAREMMA Group"</p>
+
+</div>
+
+    </div>
+
+
 
 </div>
 

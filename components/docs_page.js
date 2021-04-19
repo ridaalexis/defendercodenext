@@ -24,6 +24,24 @@ export default function FirstPost() {
     
   </div>
 
+  <div className={styles.main}>
+  <h1>Основные документы</h1>
+                <h4>
+                    <a href="https://github.com/PinkHedgehog/HStackAntivirus/blob/master/README.md" target="_blank">README — Инструкция по сборке и эксплуатации</a>
+                </h4>
+
+
+                
+
+
+
+    </div>
+
+
+
+
+
+
 </div>
 
   
