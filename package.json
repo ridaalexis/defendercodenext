@@ -8,11 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "antd": "^4.15.2",
+    "fix": "^0.0.6",
     "next": "10.1.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reactdom": "^2.0.0"
   },
   "devDependencies": {
+    "@types/node": "^14.14.41",
     "@types/react": "^17.0.3",
     "typescript": "^4.2.4"
   }

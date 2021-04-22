@@ -19,13 +19,17 @@ export default function Home() {
         </div> 
 
         <div className={styles.side} align="center">
-        <a href="/components/docs_page" >
+        <a href="/components/defendercode/docs_page" >
          <img src={"../../icons/documentation.png"} className={styles.image} alt=' Documentation_alt &rarr;' ></img>
         <p align="center">Документы</p>
       </a>
-      <a href="/components/support" >
+      <a href="/components/defendercode/support" >
           <img src={"../../icons/support.png"} className={styles.image} alt=' Support &rarr;' ></img> 
         <p align="center">Поддержка</p>
+      </a>
+       <a href="/components/shop/shop" >
+         <img src={"../../icons/eng.svg"} className={styles.image} alt=' Shop &rarr;' ></img>
+        <p align="center">Shop</p>
       </a>
               
       </div>

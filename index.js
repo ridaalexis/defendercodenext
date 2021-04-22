@@ -27,6 +27,7 @@ export default function Home() {
           <img src={"../../icons/support.png"} className={styles.image} alt=' Support &rarr;' ></img> 
         <p align="center">Поддержка</p>
       </a>
+     
               
       </div>
 

@@ -29,6 +29,9 @@ export default function FirstPost() {
                 <h4>
                     <a href="https://github.com/PinkHedgehog/HStackAntivirus/blob/master/README.md" target="_blank">README — Инструкция по сборке и эксплуатации</a>
                 </h4>
+                <h4>
+                    <a href="https://github.com/PinkHedgehog/HStackAntivirus/blob/master/README.md" target="_blank">README — Инструкция по сборке и эксплуатации</a>
+                </h4>
 
 
                 
